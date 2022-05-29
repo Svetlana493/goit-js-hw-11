@@ -3,7 +3,7 @@ import axios from 'axios';
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 class ApiService {
-    API_KEY = '27706951-1a7eb37802d35d3c510bc185f';
+    API_KEY = '27706951-1a7eb37802d35d3c510bc186e';
     page = 1;
 
     async fetchPhotos(inputValue) {
